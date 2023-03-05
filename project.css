@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Shantell+Sans:wght@300&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch&family=Luckiest+Guy&family=Roboto:wght@500&family=Shantell+Sans:wght@300&display=swap');
 .heading {
 
     height: 80px;
@@ -76,7 +76,7 @@ body {
 }
 
 .delivery {
-    background-color: orange;
+    background-color: orangered;
     color: white;
     border: none;
     border-radius: 10px;
@@ -86,7 +86,8 @@ body {
 }
 
 .delivery:hover {
-    background-color: rgb(220, 119, 18);
+    background-color: rgb(246, 183, 120);
+    transform: scale(1.1);
 }
 
 .login {
@@ -98,7 +99,14 @@ body {
     position: absolute;
     left: 75%;
     font-size: medium;
+    transition: 1s ease-out;
 
+
+}
+.log:hover{
+    
+    transform: scale(1.1);
+   color: orangered;
 
 }
 
@@ -155,8 +163,11 @@ body {
 }
 
 h2 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Cabin Sketch', cursive;
 
+}
+#serve{
+    margin-left: 15px;
 }
 
 h4 {
@@ -224,7 +235,8 @@ option {
     display: flex;
     align-items: center;
     border-radius: 35px;
-    transform: scale(1.1);
+    /* transform: scale(1.1); */
+    /* transition: 2s ease-out; */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -242,7 +254,8 @@ option {
 
 
 .combo1:hover {
-    transform: rotate(10deg);
+    transform: scale(1.1);
+
 
 }
 
